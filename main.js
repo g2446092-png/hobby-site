@@ -1,14 +1,14 @@
 const DATA_TYPES = {
-  タイトル: "string",
-  著者: "string",
+  曲名: "string",
+  グループ: "string",
   Wikipediaの紹介: "string",
   ジャンル: "category",
   おすすめ度: "number",
 };
 
 const DISPLAIES_FOR_SP = {
-  タイトル: "primary",
-  著者: "none",
+  曲名: "primary",
+  グループ: "none",
   Wikipediaの紹介: "none",
   ジャンル: "secondary",
   おすすめ度: "secondary",
@@ -336,5 +336,6 @@ function drawGraph(values) {
     div.append(label); // ラベルをバーに追加
   }
 }
+
 
 
