@@ -84,18 +84,8 @@ th {
   }
 
 }
-th, td {
-  &[data-sp-display="none"] {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  th, td {
-    &[data-sp-display="none"] {
-      display: none;
-    }
-  }
-}
+
+
 @media (max-width: 600px) {
   table {
     width: 100%;
@@ -155,3 +145,4 @@ th, td {
     border-radius: 0.5lh;
   }
 }
+
